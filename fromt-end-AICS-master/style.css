@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Calistoga', sherif;
+    background-color: #0a2239;
+    color: #ffffff;
+  }
+  
+  .menu-1 {
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #0a2239;
+  }
+  
+  .menu-1 h1 {
+    font-size: 7rem;
+    margin-top: 10px;
+    margin: 0;
+  }
+  .acoes{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .pesquisa, .entrar, .cadastrar {
+    
+    font-family: 'Calistoga', sherif;
+    
+    margin: 0;
+  }
+  .btn-cadastrar {
+    background-color: #ffffff;
+    color: #0a2239;
+    border: none;
+    padding: 3px 10px;
+    font-family: 'Calistoga', cursive;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: -90px;
+   
+  }
+  
+  button {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+    padding: 2px 10px 2px 10px;
+    font-family: 'Calistoga', cursive;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    
+  }
+  
+  .banner img {
+    display: block;
+    
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #0a2239;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #ffffff;
+    color: #0a2239;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .sobre {
+    background-color: #1c3b57;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .sobre h2 {
+     margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .conteudo img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .conteudo p {
+    max-width: 800px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .rodape {
+    background-color: #0a2239;
+    padding: 30px 20px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+  }
+  
+  .rodape .arvore {
+    margin-bottom: 20px;
+  }
+  
+  .rodape .redes img {
+    width: 24px;
+    margin: 0 5px;
+  }
+  
+  .contato {
+    background-color: #ffffff;
+    color: #0a2239;
+    font-family: 'Calistoga', cursive;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .estrelas-lua {
+    background: url('estrelas-lua.png') no-repeat center bottom;
+    height: 150px;
+    background-size: cover;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  .caixa {
+    background-color: #dcdcdc; /* cinza claro */
+    padding: 90px;
+    border-radius: 20px;
+    width: 900px;
+    text-align: center;
+  }
+
+  .botao {
+    display: block;
+    width: 100%;
+    padding: 50px;
+    margin: 50px 0;
+    background-color: #8a92ac; /* cinza azulado */
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .botao:hover {
+    background-color: #7a819c;
+  }
+
+  
+  
