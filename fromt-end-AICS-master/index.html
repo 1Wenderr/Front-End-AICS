@@ -1,24 +1,27 @@
   <!DOCTYPE html>   
-<html lang="pt-br">
+<html lang="pt-br"> 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AICS</title>
   <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 </head>
 <body>
   <div class="menu-1">
     <h1>AICS.</h1>
-    <div class="acoes">
-      <div class="pesquisa">
-      <button class="btn-pesquisa" onclick="window.location.href='pesquisa.html'">
-        <i class="fa-light fa-magnifying-glass" style="color: #ffffff;"></i> Pesquisar
-      </button>
-    </div>
+    
+      <form onsubmit="pesquisar(); return false;" class="pesquisar">
+      <input type="text" id="busca" placeholder="Buscar..."></input>
+      <button type="submit">🔎</button>
+      </form>
 
+    <div class="acoes">
     <div class="entrar">
-      <h3>Entrar</h3>
+      <a><button class="btn-entrar" onclick="window.location.href='PgCadastro.html'">Entrar</button></a>
     </div>
 
     <div class="cadastrar">
@@ -43,10 +46,10 @@
 
   <section class="sobre">
     <h2>SOBRE NÓS</h2>
-    <div class="conteudo">''
-      <img src="equipe.jpg" alt="Equipe AICS">
+    <div class="conteudo">
+      <img src="imagem/noi.png" alt="Equipe AICS">
       <p>
-        A AICS é uma organização comprometida com os ODS 11 e 13, realizando projetos e campanhas voltadas para a sustentabilidade e educação climática. Trabalhamos com fontes renováveis de energia, visando minimizar os impactos ambientais e promover um futuro mais limpo e justo. Nossos cursos e projetos abrangem sistemas solares, geradores, automação residencial e eficiência energética, capacitando pessoas para decisões mais sustentáveis e ecológicas para as futuras gerações.
+        A AICS é uma organização comprometida com os ODS 11, realizando projetos e campanhas voltadas para a sustentabilidade e educação climática. Trabalhamos com fontes renováveis de energia, visando minimizar os impactos ambientais e promover um futuro mais limpo e justo. Nossos cursos e projetos abrangem sistemas solares, geradores, automação residencial e eficiência energética, capacitando pessoas para decisões mais sustentáveis e ecológicas para as futuras gerações.
       </p>
     </div>
   </section>
@@ -59,12 +62,14 @@
       <div class="arvore">
 
         <div class="redes">
-          <a href="#"><img src="facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+          <a href="#"><img src="imagem/Facebook.jpeg" alt="Facebook"></a>
+          <a href="#"><img src="imagem/Instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="imagem/LinkedIn.png" alt="LinkedIn"></a>
         </div>
       </div>
+      
     </footer>
   </section>
+  <script src="script.js"></script>
 </body>
 </html>  
