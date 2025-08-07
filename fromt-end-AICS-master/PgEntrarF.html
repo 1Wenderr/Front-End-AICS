@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pessoa Jurídica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="menu-1">
+        <h1 onclick="window.location.href='index.html'" style="cursor: pointer;">AICS.</h1>
+    </div>
+
+    <div class="amarela"></div>
+    <div class="container">
+        <div class="caixaEntrarPessoaJ">
+          <p class="escrita">Email</p>
+          <input class="campo-texto" type="text" placeholder="Digite o seu email">
+          <p class="escrita">CPF</p>
+          <input class="campo-texto" type="number" placeholder="Digite o CPF">
+          <p class="escrita">Senha</p>
+          <div class="senha-container">
+          <input type="password" id="senha" class="campo-texto" placeholder="Digite sua senha">
+          <button type="button" onclick="mostrarSenha()">👁️</button>
+          </div>
+
+          <button type="button" class="Continuar" >Continuar</button>
+
+          <p onclick="window.location.href='PgCPessoaF.html'" style="color: black; cursor: pointer; text-decoration: underline;">Criar Conta</p>
+           
+
+        </div>
+      </div>
+
+      <button type="button" onclick="window.location.href='PgEntrar.html'" class="Voltar">Voltar</button>
+    <script src="script.js"></script>
+</body>
+</html>
