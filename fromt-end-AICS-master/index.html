@@ -1,5 +1,6 @@
-  <!DOCTYPE html>   
-<html lang="pt-br"> 
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://kit.fontawesome.com/81581fb069.js" crossorigin>
 
 
 </head>
+
 <body>
   <div class="menu-1">
     <h1>AICS.</h1>
-      
-      <form onsubmit="pesquisar(); return false;" class="pesquisar">
-      <input type="text" id="busca" placeholder="Buscar..."></input>
-      <button type="submit">🔎</button>
-      </form>
 
     <div class="acoes">
-    <div class="entrar">
-      <a><button class="btn-entrar" onclick="window.location.href='PgEntrar.html'">Entrar</button></a>
+      <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Pesquisar">
+        <a href="#" class="search-btn">
+          <img src="Icone/loupe.svg" alt="Lupa">
+        </a>
+      </div>
+
+
+      <div class="entrar">
+        <a><button class="btn-entrar" onclick="window.location.href='PgEntrar.html'">Entrar</button></a>
+      </div>
+
+      <div class="cadastrar">
+        <a><button class="btn-cadastrar" onclick="window.location.href='PgCadastro.html'">Cadastre-se</button></a>
+      </div>
     </div>
 
-    <div class="cadastrar">
-      <a><button class="btn-cadastrar" onclick="window.location.href='PgCadastro.html'">Cadastre-se</button></a>
-    </div>
-    </div>
 
-    
   </div>
   <div class="amarela"></div>
 
   <section class="banner">
-    <img src="imagem/AnyConv.com__energia-noite-1024x683.jpeg" alt="Painéis Solares" width="100%" height="400px">
+    <img src="imagem/AnyConv.com__energia-noite-1024x683.jpeg" alt="Painéis Solares" width="100%" height="500px">
   </section>
 
   <nav class="nav-bar">
-    <a href="#">PAINÉIS SOLARES</a>
+    <a href="#">CASAS INTELIGENTES</a>
     <a href="#">CURSOS</a>
     <span style="font-weight: bold; font-size: 100px; margin-bottom: 20px;" href="#">AICS.</span>
     <a href="#">GERADORES</a>
-    <a href="#">CASAS INTELIGENTES</a>
+    <a href="#">PAINÉIS SOLARES</a>
+
+
   </nav>
 
   <section class="sobre">
@@ -51,39 +61,119 @@
     <div class="conteudo">
       <img src="imagem/noi.png" alt="Equipe AICS">
       <p>
-        A AICS é uma organização comprometida com os ODS 11, realizando projetos e campanhas voltadas para a sustentabilidade e educação climática. Trabalhamos com fontes renováveis de energia, visando minimizar os impactos ambientais e promover um futuro mais limpo e justo. Nossos cursos e projetos abrangem sistemas solares, geradores, automação residencial e eficiência energética, capacitando pessoas para decisões mais sustentáveis e ecológicas para as futuras gerações. 
+        A AICS é uma organização comprometida com os ODS 11, realizando projetos e campanhas voltadas para a
+        sustentabilidade e educação climática. Trabalhamos com fontes renováveis de energia, visando minimizar os
+        impactos ambientais e promover um futuro mais limpo e justo. Nossos cursos e projetos abrangem sistemas solares,
+        geradores, automação residencial e eficiência energética, capacitando pessoas para decisões mais sustentáveis e
+        ecológicas para as futuras gerações.
       </p>
     </div>
+
+    <div class="cronometro" id="cronometro">00:01:00</div>
+
   </section>
-  
 
-  <section class="rodape">
-    <footer>
 
-      <div class="coluna-links">
-        <p href="#">Promoção</p>
-        <p href="#">Ajuda</p>
-        <p href="#">Produtos</p>
-        <p href="#">Sobre nós</p>
+
+  <footer class="footer"></footer>
+  <div class="container container-footer">
+    <div class="menu-footer">
+      <div class="contact-info">
+        <p class="title-footer">Informação de contato</p>
+        <ul>
+          <li>R. Filomena Jasmim da Silva, 408 - Brotas - SP</li>
+          <li>Telefone: (14) 3653-8159</li>
+          <li>Fax: (14) 3653-8159</li>
+          <li>Email: aicsoficial@gmail.com</li>
+        </ul>
+        <div class="social-icons">
+          <span class="facebook">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          </span>
+          <span class="twitter">
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </span>
+          <span class="youtube">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          </span>
+          <span class="pinterest">
+            <a href="https://br.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+          </span>
+          <span class="instagram">
+            <a href="http://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </span>
+        </div>
       </div>
-        
+      <div class="information">
+        <p class="title-footer">Informações</p>
+        <ul>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Informações de Entrega</a></li>
+          <li><a href="#">Termos e Condições</a></li>
+          <li><a href="#">Contate-nos</a></li>
+        </ul>
+      </div>
+
+      <div class="my-account">
+        <p class="title-footer">Minha conta</p>
+
+        <ul>
+          <li><a href="#">Minha conta</a></li>
+          <li><a href="#">Históricos de pedidos</a></li>
+          <li><a href="#">Lista de desejos</a></li>
+          <li><a href="#">Reembolsos</a></li>
+        </ul>
+      </div>
+
+      <div class="newsletter">
+        <p class="title-footer">newsletter</p>
+
         <div class="containerRodape">
-      <div class="juntarBI">
-      <form onsubmit="inscreverEmail(); return false;">
-      <input type="email" id="email" placeholder="Insira seu email para receber novidades..." class="inscricao-email"></input>
-      <button type="submit" class="enviarEmail">Enviar</button>
-    </form>
+          <div class="juntarBI">
+            <form onsubmit="inscreverEmail(); return false;">
+              <input type="email" id="email" placeholder="Insira seu email para receber novidades..."
+                class="inscricao-email"></input>
+              <button type="submit" class="enviarEmail">Enviar</button>
+            </form>
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="redes">
-          <a href="https://www.facebook.com/" target="_blank"><img src="imagem/Facebook.jpeg" alt="Facebook"></a>
-          <a href="https://www.instagram.com/1wenderr1/" target="_blank"><img src="imagem/Instagram.png" alt="Instagram"></a>
-          <a href="https://x.com/" target="_blank"><img src="imagem/X_Logo.jpeg" alt="X"></a>
-          <a href="https://br.linkedin.com/" target="_blank"><img src="imagem/LinkedIn.png" alt="LinkedIn"></a>
-        </div>
-    <p class="DireitosReservados">© 2025 AICS. Todos os direitos reservados.</p>
-    </footer>
-  </section>
+
+    <div class="copyright">
+      <p>© 2025 AICS. Todos os direitos reservados.</p>
+
+      <img src="imagem/payment.png" alt="Pagos">
+    </div>
+  </div>
+
+
   <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+   <script>
+    // Tempo inicial (em segundos): 10 minutos = 600 segundos
+    let tempoRestante = 1 * 60;
+
+    function atualizarCronometro() {
+      const cronometroEl = document.getElementById('cronometro');
+
+      if (tempoRestante <= 0) {
+        clearInterval(intervalo);
+        cronometroEl.style.display = 'none'; // Faz o cronômetro sumir
+        return;
+      }
+
+      const horas = String(Math.floor(tempoRestante / 3600)).padStart(2, '0');
+      const minutos = String(Math.floor((tempoRestante % 3600) / 60)).padStart(2, '0');
+      const segundos = String(tempoRestante % 60).padStart(2, '0');
+
+      cronometroEl.textContent = `${horas}:${minutos}:${segundos}`;
+      tempoRestante--;
+    }
+
+    const intervalo = setInterval(atualizarCronometro, 1000);
+    atualizarCronometro(); // Atualiza logo ao carregar
+  </script>
 </body>
-</html>  
+</html>
